@@ -1,0 +1,105 @@
+﻿@model IEnumerable<XYZ_shops.Models.order>
+
+@{
+                /**/
+
+                ViewBag.Title = "OrderNow";
+                Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+<style>
+    .footer {
+        margin-top: 300px;
+    }
+</style>
+<h2>OrderNow</h2>
+<html>
+<head>
+
+    <title>ORDERS</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Add More Items", "Sweatshirts", "User")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.bill_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.product_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.product_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.product_category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.product_price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.shipping_address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.payment__mode)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.bill_id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.product_id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.product_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.product_category)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.product_price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.shipping_address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.payment__mode)
+                </td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = item.user_id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.user_id })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+    <div style="margin-left:400px;border:solid;width:300px;">
+        <table class="table">
+            <tr>
+                <td>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio" />CREDIT CARD</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio" />DEBIT CARD</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio" />CASH ON DELIVERY</label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br />
+    <button class="btn btn-primary" style="margin-left:450px;" onclick="@Html.ActionLink("Bill","Bill")">PAY</button>
+
+
+</body>
+</html>

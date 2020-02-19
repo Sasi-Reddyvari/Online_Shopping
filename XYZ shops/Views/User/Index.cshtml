@@ -1,0 +1,62 @@
+﻿@model IEnumerable<XYZ_shops.Models.product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2 style="margin-top:15px">Index</h2>
+
+@using (Html.BeginForm("Index", "products", FormMethod.Get))
+{
+    <b>Search by:</b>@Html.RadioButton("Search by", "product_name")<text>product_name</text>
+    <b>Search by:</b>@Html.RadioButton("Search by", "product_category")<text>product_category</text>
+    @Html.TextBox("Search")<input type="Submit" value="Search" />
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.product_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product_category)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product_price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product_description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product_image)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.product_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.product_category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.product_price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.product_description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.product_image)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.product_id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.product_id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.product_id })
+            </td>
+        </tr>
+    }
+
+</table>

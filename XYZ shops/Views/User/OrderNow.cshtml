@@ -1,0 +1,64 @@
+﻿@model XYZ_shops.Models.order
+
+@{
+    ViewBag.Title = "OrderNow";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h3>OrderNow</h3>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+  
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    
+        <div class="form-group">
+            @Html.LabelFor(model => model.shipping_address, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.shipping_address, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.shipping_address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.payment__mode, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.payment__mode, new { htmlAttributes = new { @class = "form-control" } })
+                <div style="margin-left:400px;border:solid;width:300px;">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                <div class="radio">
+                                    <label><input type="radio" name="optradio" />CREDIT CARD</label>
+                                </div>
+                                <div class="radio">
+                                    <label><input type="radio" name="optradio" />DEBIT CARD</label>
+                                </div>
+                                <div class="radio">
+                                    <label><input type="radio" name="optradio" />CASH ON DELIVERY</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br />
+            </div>
+                @Html.ValidationMessageFor(model => model.payment__mode, "", new { @class = "text-danger" })
+            </div>
+          
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Buy Now" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("return to shopping", "Sweatshirts")
+</div>

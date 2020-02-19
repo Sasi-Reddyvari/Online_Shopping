@@ -1,0 +1,66 @@
+﻿@model XYZ_shops.Models.product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Details of the item</h3>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.product_id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.product_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_category)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_image)
+        </dt>
+
+        <dd>
+            <img src="@Url.Content(Model.product_image)" />
+            @*Html.DisplayFor(model => model.product_image)*@
+        </dd>
+
+    </dl>
+</div>
+<p style="margin-bottom:130px">
+    @Html.ActionLink("Edit", "Edit", new { id = Model.product_id }) |
+    @Html.ActionLink("Back to List of the items", "Index")
+</p>

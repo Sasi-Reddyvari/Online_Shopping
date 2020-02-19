@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #menu {
+            background-color: royalblue;
+        }
+
+        .logo {
+            height: 49px;
+            width: 120px;
+        }
+
+        .footer {
+            background-color: royalblue;
+            width: 100%;
+            height: 50%;
+            bottom: 0;
+            left: 0;
+        }
+
+        .navbar-header:hover {
+            color: royalblue;
+        }
+
+        .nav navbar-nav {
+            color: royalblue;
+        }
+    </style>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title | XYZ shops</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav id="menu" class="navbar navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a title="XYZ shops" href="/Admin/Home">
+                    <img class="logo" src="~/images/xyzshops.png" alt="XYZ shops">
+                </a>
+
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/users/Index" style="color:white;background-color:transparent;">Users</a></li>
+                <li class="active"><a href="/products/Index" style="color:white;background-color:transparent;">Products</a></li>
+                <li class="active"><a href="/orders/Index" style="color:white;background-color:transparent;">Orders</a></li>
+              
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:white;background-color:transparent;">
+                        Reports
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>@Html.ActionLink("Week sales report", "Index", "Week")</li>
+                        <li>@Html.ActionLink("Month sales report", "Index", "Month")</li>
+                        <li>@Html.ActionLink("Year sales report", "Index", "Year")</li>
+
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/Admin/Home" style="color:white;background-color:transparent;"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
+                <li><a href="/Account/Login" style="color:white;background-color:transparent;"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid">
+        @RenderBody()
+        <div class="footer">
+            <footer>
+                <div>
+                    <br />
+                    <a href="/Admin/About" style="color:white;margin-left:420px;">About</a>
+                    <a style="color:white;margin-left:5px">|</a>
+                    <a href="/Admin/Contact" style="color:white;margin-left:5px">Contact Us</a>
+                    <a style="color:white;margin-left:5px">|</a>
+                    <a href="/Admin/Refund" style="color:white;margin-left:5px;">Refund Policy</a>
+                    <a style="color:white;margin-left:5px">|</a>
+                    <a href="/Admin/Disclaimer" style="color:white;margin-left:5px;">Disclaimer</a>
+                    <a style="color:white;margin-left:5px">|</a>
+                    <a href="/Admin/Privacy" style="color:white;margin-left:5px;">Privacy Policy</a>
+                    <a title="coming soon!!">
+                        <img style="margin-left:300px; height:40px" ; src="~/images/app.png" alt="XYZ shops">
+                    </a>
+                    <br />
+                    <br />
+                    <span style="color:white;margin-left:450px;">&copy; Copyright @DateTime.Now.Year,XYZ shops pvt Ltd.All Rights Reserved</span>
+                    <br />
+                    <br />
+                </div>
+
+            </footer>
+        </div>
+
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+

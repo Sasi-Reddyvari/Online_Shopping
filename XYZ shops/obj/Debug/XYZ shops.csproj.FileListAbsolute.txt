@@ -1,0 +1,160 @@
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\XYZ shops.dll.config
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\XYZ shops.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\XYZ shops.pdb
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\csc.exe
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\csc.exe.config
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\csc.rsp
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\csi.exe
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\csi.exe.config
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\csi.rsp
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Console.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Security.Claims.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\vbc.exe
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\vbc.rsp
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\EntityFramework.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.Helpers.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.Mvc.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.Optimization.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.Razor.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.WebPages.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\WebGrease.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\EntityFramework.xml
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.Helpers.xml
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.Mvc.xml
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.Optimization.xml
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.Razor.xml
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.WebPages.xml
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\obj\Debug\XYZ shops.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\obj\Debug\XYZ shops.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\obj\Debug\XYZ shops.csproj.CopyComplete
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\obj\Debug\XYZ shops.dll
+C:\Users\Administrator\source\repos\MVC project\XYZ shops\XYZ shops\obj\Debug\XYZ shops.pdb
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\XYZ shops.dll.config
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\XYZ shops.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\XYZ shops.pdb
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\csc.exe
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\csc.exe.config
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\csc.rsp
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\csi.exe
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\csi.exe.config
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\csi.rsp
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.AppContext.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Collections.Immutable.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Console.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.IO.Compression.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.IO.FileSystem.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.IO.Pipes.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Reflection.Metadata.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Security.AccessControl.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Security.Claims.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.ValueTuple.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Xml.XPath.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\vbc.exe
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\vbc.exe.config
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\vbc.rsp
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\VBCSCompiler.exe
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\roslyn\VBCSCompiler.exe.config
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\Antlr3.Runtime.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\EntityFramework.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\EntityFramework.SqlServer.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\Microsoft.Web.Infrastructure.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\Newtonsoft.Json.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.Helpers.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.Mvc.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.Optimization.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.Razor.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.WebPages.Deployment.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.WebPages.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.WebPages.Razor.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\WebGrease.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\EntityFramework.xml
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\EntityFramework.SqlServer.xml
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.Helpers.xml
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.Mvc.xml
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.Optimization.xml
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.Razor.xml
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.WebPages.xml
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.WebPages.Deployment.xml
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\System.Web.WebPages.Razor.xml
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\Newtonsoft.Json.xml
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\Antlr3.Runtime.pdb
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\obj\Debug\XYZ shops.csprojAssemblyReference.cache
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\obj\Debug\XYZ shops.csproj.CoreCompileInputs.cache
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\obj\Debug\XYZ shops.csproj.CopyComplete
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\obj\Debug\XYZ shops.dll
+D:\Sasi_pr\bop project\XYZ shops\XYZ shops\XYZ shops\obj\Debug\XYZ shops.pdb

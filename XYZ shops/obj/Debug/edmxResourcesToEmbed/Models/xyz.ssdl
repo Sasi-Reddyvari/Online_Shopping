@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="xyzshopsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cart">
+    <Key>
+      <PropertyRef Name="user id" />
+    </Key>
+    <Property Name="user id" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="cart id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="product id" Type="int" Nullable="false" />
+    <Property Name="product price" Type="money" Nullable="false" />
+    <Property Name="product name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="product quantity" Type="int" Nullable="false" />
+    <Property Name="product image" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="categories">
+    <Key>
+      <PropertyRef Name="category id" />
+    </Key>
+    <Property Name="category id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="product category" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="order">
+    <Key>
+      <PropertyRef Name="user id" />
+    </Key>
+    <Property Name="user id" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="bill id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="product id" Type="int" Nullable="false" />
+    <Property Name="product name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="product category" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="product price" Type="money" Nullable="false" />
+    <Property Name="shipping address" Type="varchar(max)" Nullable="false" />
+    <Property Name="payment  mode" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="product id" />
+    </Key>
+    <Property Name="product id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="product name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="product category" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="product price" Type="money" Nullable="false" />
+    <Property Name="product description" Type="varchar(max)" Nullable="false" />
+    <Property Name="product image" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="user id" />
+    </Key>
+    <Property Name="user id" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="mobile no" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="email id" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="xyzshopsModelStoreContainer">
+    <EntitySet Name="cart" EntityType="Self.cart" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="categories" EntityType="Self.categories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="order" EntityType="Self.order" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="product" EntityType="Self.product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

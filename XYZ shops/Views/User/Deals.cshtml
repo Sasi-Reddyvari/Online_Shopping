@@ -1,0 +1,82 @@
+﻿
+@{
+                ViewBag.Title = "Deals";
+                Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Exclusive shopping sale is live on 24th July</h2>
+
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: 30%;
+        width: 35%;
+    }
+
+    .col1 {
+        height: 200px;
+        width: 300px;
+        padding-right: 30px;
+    }
+
+    .col2 {
+        height: 210px;
+        width: 300px;
+    }
+
+    .col3 {
+        height: 170px;
+        width: 300px;
+        padding-right: 30px;
+    }
+
+    .col4 {
+        height: 210px;
+        width: 300px;
+    }
+
+    .table1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row1 {
+        padding-bottom: 30px;
+    }
+
+    .row2 {
+        padding-top: 30px;
+    }
+</style>
+
+<table class="table1">
+    <tr class="row1">
+        <td height="100" width="100">
+            <a href="@Url.Action("Sweatshirts", "User")">
+                <img class="col1" src="~/images/home1.jpg" alt="E-Shop" />
+            </a>
+
+        </td>
+        <td height="100" width="100">
+            <a href="@Url.Action("Jeans", "User")">
+                <img class="col2" src="~/images/1.jpg" alt="E-Shop" />
+            </a>
+        </td>
+    </tr>
+    <tr class="row2">
+        <td height="100" width="100">
+            <a href="@Url.Action("Sweatshirts", "User")">
+                <img class="col3" src="~/images/4.jpg" alt="E-Shop" />
+            </a>
+        </td>
+        <td height="100" width="100">
+            <a href="@Url.Action("Jeans", "User")">
+                <img class="col4" src="~/images/a.jpg" alt="E-Shop" />
+             </a>
+        </td>
+    </tr>
+</table>
+
+
+

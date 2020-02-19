@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = Session["user_id"] = Session["user_id"].ToString();
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+<style>
+    .center {
+        padding-top: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+</style>
+
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <a href="@Url.Action("Sweatshirts", "User")">
+            <img class="center" src="~/images/b.jpg" alt="XYZ shops" />
+        </a>
+
+        <br />
+        <p class="lead">XYZ sale-Big Shopping Sale starts on 22nd June with 50% instant discount on the current prices.Get Registered and add to cart for new users.</p>
+    </div>
+</div>
+<text style="color:Red;margin-left:600px;font-size:large">Welcome @Session["user_id"]</text>
+<br/>
+<text style="color:black;margin-left:596px;">Stay Snug & Stylish</text>
+<br />
+`<br />
+ <a href="@Url.Action("Sweatshirts", "User")">
+     <img style="padding-top: 0;
+        display: block;
+        margin-left: 480px;
+        margin-right: auto;
+        width: 30%;" src="~/images/xy.jpg" alt="XYZ shops" />
+ </a>

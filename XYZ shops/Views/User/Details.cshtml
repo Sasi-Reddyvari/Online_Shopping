@@ -1,0 +1,61 @@
+﻿@model XYZ_shops.Models.product
+
+@{
+                /**/
+
+                ViewBag.Title = Session["product_name"];
+                Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+
+<img src="@Url.Content(Model.product_image)" />
+<hr />         
+
+  <div>
+      <dl class="dl-horizontal">
+          <dt>
+              @Html.DisplayNameFor(model => model.product_id)
+          </dt>
+          <dd>
+              @Html.DisplayFor(model => model.product_id)
+          </dd>
+
+          <dt>
+              @Html.DisplayNameFor(model => model.product_name)
+          </dt>
+
+          <dd>
+              @Html.DisplayFor(model => model.product_name)
+          </dd>
+
+
+
+          <dt>
+              @Html.DisplayNameFor(model => model.product_price)
+          </dt>
+
+          <dd>
+              @Html.DisplayFor(model => model.product_price)
+          </dd>
+
+          <dt>
+              @Html.DisplayNameFor(model => model.product_description)
+          </dt>
+
+          <dd>
+              @Html.DisplayFor(model => model.product_description)
+          </dd>
+
+
+      </dl>
+  </div>
+
+<p class="colo">
+    <h4 class="btn-link" >@Html.ActionLink("Add to Cart", "Cart", new { id = Model.product_id})</h4>
+
+</p>
+
+<p>
+    @Html.ActionLink("Go to Sweatshirts Collection", "Details") |
+    @Html.ActionLink("Go to Jeans Collection", "Details")
+</p>

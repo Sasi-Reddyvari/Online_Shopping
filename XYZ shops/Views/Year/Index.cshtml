@@ -1,0 +1,89 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    .footer {
+        margin-top: 1000px;
+    }
+</style>
+<h2>Index</h2>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+
+<script>
+    $.getJSON(
+        'https://cdn.jsdelivr.net/gh/highcharts/highcharts@v7.0.0/samples/data/usdeur.json',
+        function (data) {
+
+            Highcharts.chart('container', {
+                chart: {
+                    zoomType: 'x'
+                },
+                title: {
+                    text: 'Year Report'
+                },
+                subtitle: {
+                    text: document.ontouchstart === undefined ?
+                        'Click and drag in the plot area to zoom in' : 'Pinch the chart to zoom in'
+                },
+                xAxis: {
+                    categories: ['2011', '2012', '2013', '2014', '2015', '2016', '2017','2018']
+                },
+                yAxis: {
+                    title: {
+                        text: 'No.of Products sold in years'
+                    }
+                },
+                legend: {
+                    enabled: false
+                },
+                plotOptions: {
+                    area: {
+                        fillColor: {
+                            linearGradient: {
+                                x1: 0,
+                                y1: 0,
+                                x2: 0,
+                                y2: 1
+                            },
+                            stops: [
+                                [0, Highcharts.getOptions().colors[0]],
+                                [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+                            ]
+                        },
+                        marker: {
+                            radius: 2
+                        },
+                        lineWidth: 1,
+                        states: {
+                            hover: {
+                                lineWidth: 1
+                            }
+                        },
+                        threshold: null
+                    }
+                },
+
+                series: [{
+                    name: 'Sweatshirts & Hoodies',
+                    data: [51265, 52386, 53212, 54678, 56731, 56876,58674,60342]
+
+                }, {
+                    name: 'Jeans',
+                    data: [49219, 50347, 54762, 58568, 58769, 58293, 60263,61234]
+
+                }]
+
+            });
+        }
+    );
+</script>
+

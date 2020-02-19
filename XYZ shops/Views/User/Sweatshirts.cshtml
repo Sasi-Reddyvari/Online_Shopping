@@ -1,0 +1,39 @@
+﻿@model IEnumerable<XYZ_shops.Models.product>
+
+@{
+
+    ViewBag.Title = "Sweatshirts";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h3>Sweatshirts</h3>
+<style>
+    .footer {
+        margin-top: 1000px;
+    }
+</style>
+@foreach (var item in Model)
+{
+    if (@item.product_category == "Sweatshirts & Hoodies")
+    {
+        <div style="width:100%">
+            <div class="col-sm-5 col-md-3" style="width:175px">
+                <div class="thumbnail">
+                    <a><img src="@Url.Content(item.product_image)" /> </a>
+                </div>
+                <div class="caption" style="align-content:center">
+                    <span style="color:cornflowerblue" ,strong="5px">
+                        <i>
+                            @Html.DisplayFor(ModelItem => item.product_name)
+                            <br />
+                        </i>
+                    </span>
+                    @Html.DisplayFor(ModelItem => item.product_price)/-
+                    <br />
+                    <h5>@Html.ActionLink("View", "Details", new { id = item.product_id })</h5>
+                </div>
+            </div>
+        </div>
+    }
+}
+

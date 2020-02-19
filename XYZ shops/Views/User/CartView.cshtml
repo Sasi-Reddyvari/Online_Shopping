@@ -1,0 +1,70 @@
+﻿@model IEnumerable<XYZ_shops.Models.cart>
+
+@{
+                /**/
+
+                ViewBag.Title = "CartView";
+                Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+<style>
+    .footer {
+        margin-top: 300px;
+    }
+</style>
+
+<h2>CartView</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.product_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product_price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product_quantity)
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.product_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.product_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.product_price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.product_quantity)
+            </td>
+            <td></td>
+            <td>
+
+                @Html.ActionLink("Delete", "Delete", new { id = item.cart_id }) |
+
+                @Html.ActionLink("Edit product quantity", "Edit", new { id = item.cart_id })
+                <p style="margin-left:500px">
+                    <h4 class="btn-link">@Html.ActionLink("Place Order", "OrderNow", "Order", new { id = item.product_id })</h4>
+
+                </p>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<p>
+    @Html.ActionLink("Add more Items", "Sweatshirts")
+</p>

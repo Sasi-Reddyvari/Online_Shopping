@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #menu {
+            background-color: royalblue;
+        }
+
+        .logo {
+            height: 49px;
+            width: 120px;
+        }
+
+        .footer {
+            background-color: royalblue;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+        }
+
+        .navbar-header:hover {
+            color: royalblue;
+        }
+
+        .nav navbar-nav:hover {
+            color: royalblue;
+        }
+
+        .active {
+        }
+    </style>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title | XYZ shops</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav id="menu" class="navbar navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a title="XYZ shops" href="/Home/Index">
+                    <img class="logo" src="~/images/xyzshops.png" alt="XYZ shops">
+                </a>
+
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/Home/Index" style="color:white;background-color:transparent;">Home</a></li>
+                <li><a href="/Home/Deals" style="color:white;background-color:transparent;">Today's Deals</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:white;background-color:transparent;">
+                        Categories
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/Categories/Sweatshirts">Sweatshirts & Hoodies</a></li>
+                        <li><a href="/Categories/Jeans">Jeans</a></li>
+                      
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/Home/Gifts" style="color:white;background-color:transparent;"><span class="glyphicon glyphicon-gift"></span> Gifts</a></li>
+                <li><a href="/Account/Registration" style="color:white;background-color:transparent;"><span class="glyphicon glyphicon-user"></span>Register</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid">
+        @RenderBody()
+        <div class="footer">
+            <footer>
+                <div>
+                    <br />
+                    <a href="/Home/About" style="color:white;margin-left:420px;">About</a>
+                    <a style="color:white;margin-left:5px">|</a>
+                    <a href="/Home/Contact" style="color:white;margin-left:5px">Contact Us</a>
+                    <a style="color:white;margin-left:5px">|</a>
+                    <a href="/Home/Refund" style="color:white;margin-left:5px;">Refund Policy</a>
+                    <a style="color:white;margin-left:5px">|</a>
+                    <a href="/Home/Disclaimer" style="color:white;margin-left:5px;">Disclaimer</a>
+                    <a style="color:white;margin-left:5px">|</a>
+                    <a href="/Home/Privacy" style="color:white;margin-left:5px;">Privacy Policy</a>
+                    <a title="coming soon!!">
+                        <img style="margin-left:300px; height:40px" ; src="~/images/app.png" alt="XYZ shops">
+                    </a>
+                    <br />
+                    <br />
+                    <span style="color:white;margin-left:450px;">&copy; Copyright @DateTime.Now.Year,XYZ shops pvt Ltd.All Rights Reserved</span>
+                    <br />
+                    <br />
+                </div>
+
+            </footer>
+        </div>
+
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

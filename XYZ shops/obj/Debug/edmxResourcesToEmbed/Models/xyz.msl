@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="xyzshopsModelStoreContainer" CdmEntityContainer="xyzshopsEntities1">
+    <EntitySetMapping Name="carts">
+      <EntityTypeMapping TypeName="xyzshopsModel.cart">
+        <MappingFragment StoreEntitySet="cart">
+          <ScalarProperty Name="user_id" ColumnName="user id" />
+          <ScalarProperty Name="cart_id" ColumnName="cart id" />
+          <ScalarProperty Name="product_id" ColumnName="product id" />
+          <ScalarProperty Name="product_price" ColumnName="product price" />
+          <ScalarProperty Name="product_name" ColumnName="product name" />
+          <ScalarProperty Name="product_quantity" ColumnName="product quantity" />
+          <ScalarProperty Name="product_image" ColumnName="product image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="categories">
+      <EntityTypeMapping TypeName="xyzshopsModel.category">
+        <MappingFragment StoreEntitySet="categories">
+          <ScalarProperty Name="category_id" ColumnName="category id" />
+          <ScalarProperty Name="product_category" ColumnName="product category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="orders">
+      <EntityTypeMapping TypeName="xyzshopsModel.order">
+        <MappingFragment StoreEntitySet="order">
+          <ScalarProperty Name="user_id" ColumnName="user id" />
+          <ScalarProperty Name="bill_id" ColumnName="bill id" />
+          <ScalarProperty Name="product_id" ColumnName="product id" />
+          <ScalarProperty Name="product_name" ColumnName="product name" />
+          <ScalarProperty Name="product_category" ColumnName="product category" />
+          <ScalarProperty Name="product_price" ColumnName="product price" />
+          <ScalarProperty Name="shipping_address" ColumnName="shipping address" />
+          <ScalarProperty Name="payment__mode" ColumnName="payment  mode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="xyzshopsModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="product_id" ColumnName="product id" />
+          <ScalarProperty Name="product_name" ColumnName="product name" />
+          <ScalarProperty Name="product_category" ColumnName="product category" />
+          <ScalarProperty Name="product_price" ColumnName="product price" />
+          <ScalarProperty Name="product_description" ColumnName="product description" />
+          <ScalarProperty Name="product_image" ColumnName="product image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="xyzshopsModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="user_id" ColumnName="user id" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="mobile_no" ColumnName="mobile no" />
+          <ScalarProperty Name="email_id" ColumnName="email id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

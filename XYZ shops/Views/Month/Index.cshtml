@@ -1,0 +1,78 @@
+﻿
+@{
+                /**/
+
+                ViewBag.Title = "Index";
+                Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    .footer {
+        margin-top: 1000px;
+    }
+</style>
+<h2>Index</h2>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+
+<script>
+    Highcharts.chart('container', {
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: ' Monthly Report'
+        },
+
+        xAxis: {
+            categories: [
+                'Jan',
+                'Feb',
+                'Mar',
+                'Apr',
+                'May',
+                'Jun',
+                'Jul',
+                'Aug',
+                'Sep',
+                'Oct',
+                'Nov',
+                'Dec'
+            ],
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'No.Of Products sold '
+            }
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+            footerFormat: '</table>',
+            shared: true,
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: 'Sweatshirts & Hoodies',
+            data: [5678,5987,4598,4303,4106,4208,4980,4386,4476,5067,4983,5972]
+
+        }, {
+            name: 'Jeans',
+            data: [5976,5998,4721,4351,4304,4219,5876,4861,4641,6010,5629,6026]
+
+        }]
+    });
+</script>
